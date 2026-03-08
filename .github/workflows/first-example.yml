@@ -9,7 +9,7 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v6
 
-        - name: Welcome message
+        - name: List and Read files
           run: | 
             echo "My First Github Actions Job"
             ls -ltra
